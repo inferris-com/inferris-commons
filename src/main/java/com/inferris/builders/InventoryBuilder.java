@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class InventoryBuilder {
-    private Player player;
+    private final Player player;
     private final Inventory inventory;
     private final String inventoryName;
     private final Map<Integer, ItemStack> items;
