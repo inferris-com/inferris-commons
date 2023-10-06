@@ -1,4 +1,4 @@
-package com.inferris.gui;
+package com.inferris.gui.itemstack;
 
 import org.bukkit.inventory.ItemStack;
 
