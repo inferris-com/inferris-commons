@@ -9,7 +9,7 @@ import org.bukkit.inventory.ItemStack;
 public class MobBuilder {
     private final EntityType entityType;
     private final Location location;
-    private LivingEntity livingEntity;
+    private final LivingEntity livingEntity;
 
     public MobBuilder(EntityType entityType, Location spawnLocation){
         this.entityType = entityType;
